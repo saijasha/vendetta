@@ -53,4 +53,4 @@ public class GroupOfCards {
         this.size = size;
     }
 
-}//end class
+}
