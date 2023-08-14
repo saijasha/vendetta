@@ -247,7 +247,7 @@ public class WarGame extends Game {
         // Print final results
         System.out.println("\nGame Over!");
 
-        if (winner != null && gameOver == true) {
+        if (winner != null && gameOver) {
             System.out.println(
                     winner.getName() + " has won the game with "
                     + winner.getHand().getCards().size() + " cards left!");

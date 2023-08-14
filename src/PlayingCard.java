@@ -17,8 +17,8 @@
  */
 public class PlayingCard extends Card {
 
-    private String suit; // clubs, spades, diamonds, hearts
-    private int value; // 1-13
+    private final String suit; // clubs, spades, diamonds, hearts
+    private final int value; // 1-13
 
     /**
      * Constructor for creating a new PlayingCard object.

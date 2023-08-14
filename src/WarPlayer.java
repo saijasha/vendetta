@@ -16,7 +16,7 @@
  */
 class WarPlayer extends Player {
 
-    private GroupOfCards hand; // Player's hand of cards
+    private final GroupOfCards hand; // Player's hand of cards
     private int score; // Player's score
 
     /**

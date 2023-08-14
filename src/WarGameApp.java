@@ -34,7 +34,7 @@ public class WarGameApp {
         // Create a new instance of the WarGame class
         WarGame game = new WarGame("War");
 
-        int numPlayers = 0;
+        int numPlayers;
 
         // Asking user input for number of players untill correct value is inserted
         do {

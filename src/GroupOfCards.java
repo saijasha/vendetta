@@ -19,7 +19,7 @@ import java.util.Collections;
  */
 class GroupOfCards {
 
-    private ArrayList<Card> cards; // ArrayList to hold the cards in the group
+    private final ArrayList<Card> cards; // ArrayList to hold the cards in the group
 
     /**
      * Default constructor. Creates an empty group of cards.
